@@ -17,3 +17,7 @@ function order (clients, property) {
       }
     })
 }
+function total (clients) {
+    return clients.reduce((total, client) => (total += client.balance), 0)
+}
+
