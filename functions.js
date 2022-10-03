@@ -21,3 +21,10 @@ function total (clients) {
     return clients.reduce((total, client) => (total += client.balance), 0)
 }
 
+function info (number){
+
+return clients.find(client => (client.index === number))
+    
+}
+
+    
